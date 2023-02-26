@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tV_gg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="下面是按钮"
+        android:textColor="@color/black"
+        android:textSize="15dp"></TextView>
+
+    <Button
+        android:id="@+id/tv_jj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textColor="@color/black"
+        android:textSize="15dp"></Button>
+
+    <TextView
+        android:id="@+id/tV_gg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="下面是按钮不会自动变化为大写"
+        android:textColor="@color/black"
+        android:textSize="15dp"></TextView>
+
+    <Button
+        android:id="@+id/tv_jj1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15dp"></Button>
+    <Button
+        android:id="@+id/tv_jj12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:onClick="doClik"></Button>
+    <TextView
+        android:id="@+id/tV_gg12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="下面是按钮不会自动变化为大写"
+        android:textColor="@color/black"
+        android:textSize="15dp"></TextView>
+
+</LinearLayout>
